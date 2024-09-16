@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+ /* background-color: cornflowerblue;   */
+/* background-image: url(https://img.elo7.com.br/product/zoom/4A29F43/imagem-alta-resolucao-para-quadro-ceu-01-quadro.jpg); */
+background-repeat: no-repeat;
+background-size:cover;
+background-position:center;
+background-attachment: fixed;
+animation: mudarCores 5s infinite;
+}
+
+img{
+    height: 200px;
+
+}
+main{
+    border:  aquamarine 3px solid;
+    width: 70%;
+    margin: auto;
+    padding: 25px;
+    background-color: rgba(112, 190, 164, 0.178);
+    border: radius 80px;
+}
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(138, 5, 109, 0.829);
+    /* font-weight:90; */
+    /* font-style:italic; */
+    font-stretch: extra-expanded;
+    line-height: 29px;
+    /* letter-spacing:30 ; */
+    word-spacing: 10px;
+    text-align: justify;
+    text-decoration: underline dashed #8b078b;
+    text-transform:lowercase;
+    text-indent: 50px;
+    text-shadow: 1px 1px 1px #d109b66b;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: center;
+    color: hotpink;
+    text-shadow: 2px 5px 10px palevioletred;
+
+}
+@keyframes  mudarCores {
+    0%{background-color: darkcyan;
+    }
+    25%{background-color: mediumslateblue;
+
+    }50%{background-color: aqua;
+
+    }
+    75%{background-color: darkcyan;
+
+    }
+    100%{background-color:turquoise
+
+    }
+    
+
+    
+
+
+    
+}
+
